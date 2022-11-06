@@ -1,7 +1,12 @@
 <h1 align="center">Hello this is uynilo9 🧬</h1>
 <p align="center">Enjoy creating some simple and convenient programs</p>
+<br />
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/979017190009368586)](https://discord.com/users/979017190009368586)
+
+<br />
 <div align="center">
-    <img src="https://i.postimg.cc/L8sbR0Hj/player.png" />
+    <img src="https://i.postimg.cc/L8sbR0Hj/player.png" height="450" />
 </div>
 
 ---
