@@ -8,18 +8,18 @@
 </div>
 <br />
 <div align="center">
-    <img src="https://i.postimg.cc/L8sbR0Hj/player.png" height="450" />
+    <img src="https://i.imgur.com/P6chJ94.gif" height="450" />
 </div>
 
 ---
 
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,c,cpp,git" />
+        <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,c" />
     </a>
     <br />
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=express,react,vite" />
+        <img src="https://skillicons.dev/icons?i=react,vite" />
     </a>
     <br />
     <a href="https://skillicons.dev">
