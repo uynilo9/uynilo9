@@ -8,7 +8,7 @@
 </div>
 <br />
 <div align="center">
-    <img src="https://i.imgur.com/P6chJ94.gif" height="450" />
+    <img src="https://i.imgur.com/P6chJ94.gif" width="284" height="400" />
 </div>
 
 ---
