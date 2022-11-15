@@ -19,7 +19,7 @@
     </a>
     <br />
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=react,vite" />
+        <img src="https://skillicons.dev/icons?i=react,electron,vue,vite,express" />
     </a>
     <br />
     <a href="https://skillicons.dev">
