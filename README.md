@@ -15,14 +15,14 @@
 
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,c" />
+        <img src="https://skillicons.dev/icons?i=js,ts,html,css,c,cpp" />
     </a>
     <br />
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=react,electron,vue,vite,express" />
+        <img src="https://skillicons.dev/icons?i=vue,vite,electron,express" />
     </a>
     <br />
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=vscode,visualstudio,github,discord,twitter" />
+        <img src="https://skillicons.dev/icons?i=vscode,github,discord,twitter" />
     </a>
 </p>
