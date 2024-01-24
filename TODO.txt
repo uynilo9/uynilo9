@@ -1,0 +1,3 @@
+- Remove the useless newline
+- Remove the .gitignore file
++ Remove the Discord Status
