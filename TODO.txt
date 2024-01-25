@@ -1,3 +1,5 @@
 - Remove the useless newline
 - Remove the .gitignore file
-+ Remove the Discord Status
+x Remove the Discord Status
+- Comment the Discord Status
+- Add the <details> tags to the skill icons
