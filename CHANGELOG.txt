@@ -4,3 +4,4 @@ Comment the Discord Status, add the <details> tags to the skill icons
 Remove one useless todo from the TODO.txt file, rewrite the <details> tags, add the CHANGELOG.txt file
 Rename the LICENSE.md file to LICENSE.txt, update the year in the LICENSE.txt file
 Add one todo
+Add the WindiCSS skill icon into the README.md file, initialize the project as Vite+Vue+TS, setup WindiCSS in the project

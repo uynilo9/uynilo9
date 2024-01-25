@@ -36,7 +36,7 @@
 <details>
     <summary><h3>Langs & Runtimes</h3></summary>
     <h4>Front-ends</h4>
-    <img src="https://skillicons.dev/icons?i=html,css,js,scss,tailwind,vue,vite" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,scss,tailwind,windi,vue,vite" />
     <h4>Back-ends</h4>
     <img src="https://skillicons.dev/icons?i=ts,deno,bun,py,nim" />
     <h4>Interested-ins</h4>

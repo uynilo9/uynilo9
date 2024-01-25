@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@uynilo9/website",
+  "type": "module",
+  "scripts": {
+    "v:dev": "vite",
+    "v:host": "vite --host",
+    "v:build": "vue-tsc && vite build",
+    "v:preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "bun-types": "latest",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-windicss": "^1.9.3",
+    "vue-tsc": "^1.8.25",
+    "windicss": "^3.5.6"
+  }
+}
