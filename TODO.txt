@@ -2,4 +2,3 @@
 - Remove the .gitignore file
 x Remove the Discord Status
 - Comment the Discord Status
-- Add the <details> tags to the skill icons

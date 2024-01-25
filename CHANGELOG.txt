@@ -1,0 +1,4 @@
+Rewrite the whole readme file
+Add the TODO.txt file, remove the useless newline and the .gitignore file
+Comment the Discord Status, add the <details> tags to the skill icons
+Remove one useless todo from the TODO.txt file, rewrite the <details> tags, add the CHANGELOG.txt file

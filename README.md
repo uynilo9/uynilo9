@@ -2,7 +2,7 @@
 
 <div>
     <b>Unpro Programmer / ACG Lover / Highschool Student</b>
-    <br><br>
+    <br /><br />
     <p>Just a normal 15 boy from ROC/Taiwan. I enjoy programming, watch Japenese animes, and play video games. I'll start developing some interesting but tiny programs when there's nothing to do (lmao). I hope one day I could become a Full-stack Programmer (but professional) / Gaming Streamer / Physics Enthusiast (sounds like joking). Please be friend with me if you want :D</p>
     <a href="https://uynilo9.8b.io">
         <img alt="Biolink @uynilo9" title="Biolink @uynilo9" src="https://img.shields.io/badge/Biolink-@uynilo9-000000?logo=biolink&labelColor=202020&color=000000&style=for-the-badge" />
@@ -29,28 +29,21 @@
     <a href="https://youtube.com/@uynilo9">
         <img alt="YouTube @uynilo9" title="YouTube @uynilo9" src="https://img.shields.io/badge/youtube-@uynilo9-2f72bc?logo=youtube&labelColor=202020&logoColor=ff0000&color=ff0000&style=for-the-badge" />
     </a>
-    <!-- <img alt="Status @uynilo9" title="Status @uynilo9" src="https://lanyard.cnrad.dev/api/979017190009368586?bg=1f1f1f" style="flex: 1; max-width: 27.5%; margin-left: 2.5%; margin-right: 15%"> -->
 </div>
 
 ---
 
 <details>
-    <summary><h3>Front-ends</h3></summary>
+    <summary><h3>Langs & Runtimes</h3></summary>
+    <h4>Front-ends</h4>
     <img src="https://skillicons.dev/icons?i=html,css,js,scss,tailwind,vue,vite" />
-</details>
-
-<details>
-    <summary><h3>Back-ends</h3></summary>
+    <h4>Back-ends</h4>
     <img src="https://skillicons.dev/icons?i=ts,deno,bun,py,nim" />
-</details>
-
-<details>
-    <summary><h3>Interested-ins</h3></summary>
+    <h4>Interested-ins</h4>
     <img src="https://skillicons.dev/icons?i=rust,go,haskell,zig" />
 </details>
 
-
 <details>
-    <summary><h3>Tools</h3></summary>
+    <summary><h3>Tools & Webs</h3></summary>
     <img src="https://skillicons.dev/icons?i=git,vscode,github,stackoverflow,gcp" />
 </details>
