@@ -1,3 +1,13 @@
+<script lang="ts" setup>
+import HelloWorld from '@components/HelloWorld.vue';
+</script>
 <template>
-  <h1>Hello World</h1>
+    <HelloWorld />
 </template>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>

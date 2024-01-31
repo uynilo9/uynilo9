@@ -1,5 +1,0 @@
-- Remove the useless newline
-- Remove the .gitignore file
-x Remove the Discord Status
-- Comment the Discord Status
-+ Make a new personal website

@@ -2,6 +2,10 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "ESNext",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+    },
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "useDefineForClassFields": true,
     "skipLibCheck": true,

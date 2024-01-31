@@ -5,3 +5,4 @@ Remove one useless todo from the TODO.txt file, rewrite the <details> tags, add 
 Rename the LICENSE.md file to LICENSE.txt, update the year in the LICENSE.txt file
 Add one todo
 Add the WindiCSS skill icon into the README.md file, initialize the project as Vite+Vue+TS, setup WindiCSS in the project
+Use UnoCSS instead of WindiCSS, remove TODO.txt, add the path alias, setup a simple Vue component in the website
