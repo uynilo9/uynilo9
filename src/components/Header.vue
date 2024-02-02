@@ -5,6 +5,6 @@
 <template>
     <div class="mb-7.5 flex flex-row flex-wrap justify-between">
         <Info />
-        <Router @view-changed="(n: Number) => $emit('view-changed', n)"/>
+        <Router @view-changed="(n: number) => $emit('view-changed', n)"/>
     </div>
 </template>

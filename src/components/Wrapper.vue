@@ -10,7 +10,7 @@
         class="
             m-auto px-7.5 py-5 w-lg h-xs flex flex-col
             bg-gray:5 rounded-2.5
-            shadow-lg shadow-black:10 @hover:shadow-black:20
+            shadow-lg shadow-black:10 @hover:shadow-black:25
             transition-shadow ease-in-out duration-250
         "
     >
