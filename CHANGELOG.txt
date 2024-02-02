@@ -8,3 +8,4 @@ Add the WindiCSS skill icon into the README.md file, initialize the project as V
 Use UnoCSS instead of WindiCSS, remove TODO.txt, add the path alias, setup a simple Vue component in the website
 Reorder the classes in HelloWorld.vue
 Setup the shortcuts in UnoCSS
+Complete the basic wrapper and the About page, modify some contents in README.md file

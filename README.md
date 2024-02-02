@@ -3,7 +3,7 @@
 <div>
     <b>Unpro Programmer / ACG Lover / Highschool Student</b>
     <br /><br />
-    <p>Just a normal 15 boy from ROC/Taiwan. I enjoy programming, watch Japenese animes, and play video games. I'll start developing some interesting but tiny programs when there's nothing to do (lmao). I hope one day I could become a Full-stack Programmer (but professional) / Gaming Streamer / Physics Enthusiast (sounds like joking). Please be friend with me if you want :D</p>
+    <p>Just a normal 15 boy from ROC/Taiwan. I enjoy programming, watch Japenese animes, and play video games. I'll start developing some interesting but tiny programs when there's nothing to do (lmao). I hope one day I could become a Full-stack Programmer (but professional) / Gaming Streamer / Physics Enthusiast (sounds like joking). Let's be friends together :D</p>
     <a href="https://uynilo9.8b.io">
         <img alt="Biolink @uynilo9" title="Biolink @uynilo9" src="https://img.shields.io/badge/Biolink-@uynilo9-000000?logo=biolink&labelColor=202020&color=000000&style=for-the-badge" />
     </a>
