@@ -3,16 +3,25 @@
         name: string,
         description: string,
         url: string,
-        website: string,
-        icons: string[]
+        websites: Record<string, string>,
+        tools: Record<string, string>
     };
     const projects: Project[] = [
         {
             name: '@uynilo9/uynilo9',
             description: '✨ - My special repo for something amazing',
             url: 'https://github.com/uynilo9/uynilo9',
-            website: 'icon-github',
-            icons: ['icon-ts', 'icon-vue', 'icon-vite', 'icon-unocss', 'icon-bun']
+            websites: {
+                'GitHub': 'icon-github',
+                'Vercel': 'icon-vercel'
+            },
+            tools: {
+                'TypeScript': 'icon-ts',
+                'Vue': 'icon-vue',
+                'Vite': 'icon-vite',
+                'UnoCSS': 'icon-unocss',
+                'Bun': 'icon-bun'
+            }
         }
     ];
 </script>
@@ -32,16 +41,17 @@
         >
             <h3 class="text-4 text-default">{{ project.name }}</h3>
             <p class="text-3.5 text-default text-gray">{{ project.description }}</p>
-            <div class="flex gap-1">
+            <div class="flex items-center gap-1">
                 <div
-                    :class="project.website"
-                    :title="project.website.slice(5)"
+                    v-for="websiteIcon, website in project.websites"
+                    :class="websiteIcon"
+                    :title="website"
                 ></div>
-                <p class="text-3.5 text-default text-gray select-none">|</p>
+                <p class="mx-1 text-3.5 text-default text-gray select-none">|</p>
                 <div
-                    v-for="icon in project.icons"
-                    :class="icon"
-                    :title="icon.slice(5)"
+                    v-for="toolIcon, tool in project.tools"
+                    :class="toolIcon"
+                    :title="tool"
                 ></div>
             </div>
         </a>

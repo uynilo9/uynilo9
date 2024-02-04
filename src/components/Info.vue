@@ -1,16 +1,38 @@
 <script lang="ts" setup>
+    interface Badge {
+        name: string,
+        icon: string
+    };
+    const badges: Badge[] = [
+        {
+            name: 'ROC',
+            icon: 'icon-roc'
+        },
+        {
+            name: 'Verified',
+            icon: 'icon-check'
+        }
+    ];
     const labels = ['Unpro Programmer', 'ACG Lover', 'Highschool Student'];
     const label = labels[Math.floor(Math.random() * labels.length - 1) + 1];
 </script>
 <template>
     <div class="flex flex-row items-center gap-2.25">
         <img
-            src="@assets/avatar.png" alt="@uynilo9"
+            src="@assets/avatar.png" alt="@uynilo9" loading="eager" decoding="sync"
             class="max-w-10 max-h-10 rounded-full select-none pointer-events-none"
         />
         <div class="min-w-30 grid gap-y-0.5">
             <p class="flex font-600 text-default text-4.25 items-center gap-x-1">
-                uynilo9 <span class="flex font-500 text-default text-3.25 text-gray items-center">@uynilo9</span>
+                uynilo9
+                <p class="flex font-500 text-default text-3.25 text-gray items-center gap-x-1">
+                    <div
+                        v-for="badge in badges"
+                        :class="badge.icon"
+                        :title="badge.name"
+                    ></div>
+                    @uynilo9
+                </p>
             </p>
             <p class=" text-default text-3 text-gray">#{{ label }}</p>
         </div>

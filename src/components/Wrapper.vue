@@ -3,7 +3,7 @@
     import Header from '@components/Header.vue';
     import About from '@components/About.vue';
     import Projects from '@components/Projects.vue';
-    const view = vue.ref(0)
+    const view = vue.ref(0);
 </script>
 <template>
     <div

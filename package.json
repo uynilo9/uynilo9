@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.1.105",
+    "@iconify-json/twemoji": "^1.1.15",
     "@iconify-json/vscode-icons": "^1.1.33",
     "@vitejs/plugin-vue": "^4.5.2",
     "bun-types": "latest",
