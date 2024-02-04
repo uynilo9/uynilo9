@@ -12,3 +12,4 @@ Complete the basic wrapper and the About page, modify some contents in the READM
 Complete the Project page, update the avatar, fix something not important
 Modify the stupid contents and grammar in the README.md file and the About page
 Add the website icon, complete the Copyright.vue and Links.vue file, modify a lot of details the I can't count
+Modify the gif in the Can.vue file
