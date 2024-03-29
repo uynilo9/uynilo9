@@ -15,3 +15,7 @@ Add the website icon, complete the Copyright.vue and Links.vue file, modify a lo
 Modify the gif in the Can.vue file
 Add the shortcut for icons
 Modify the max-width problem and remove the Warning tag
+Rewrite the introduction in the README.md file
+Add more skill icons in the README.md file
+Reorder the skill icons in the README.md file
+Add the missing logs and one contributed project in the Project.vue file
