@@ -22,20 +22,6 @@
                 'UnoCSS': 'icon-unocss',
                 'Bun': 'icon-bun'
             }
-        },
-        {
-            name: '@face-hh/griddycode',
-            description: 'A code editor made with Godot. Code has never been more lit!',
-            url: 'https://github.com/face-hh/griddycode',
-            websites: {
-                'GitHub': 'icon-github',
-                'YouTube': 'icon-youtube'
-            },
-            tools: {
-                'GDScript': 'icon-gdscript',
-                'Rust': 'icon-rust',
-                'Lua': 'icon-lua'
-            }
         }
     ];
 </script>

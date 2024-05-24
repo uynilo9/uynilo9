@@ -19,3 +19,4 @@ Rewrite the introduction in the README.md file
 Add more skill icons in the README.md file
 Reorder the skill icons in the README.md file
 Add the missing logs and one contributed project in the Project.vue file
+Remove one contributed project and three icons

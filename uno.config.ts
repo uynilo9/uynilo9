@@ -32,9 +32,6 @@ export default unocss.defineConfig({
         'icon-ts': 'i-tabler:brand-typescript icon-default @hover:text-[#3178c6]',
         'icon-vue': 'i-tabler:brand-vue icon-default @hover:text-[#41b883]',
         'icon-vite': 'i-tabler:brand-vite icon-default @hover:text-[#7590ff]',
-        'icon-unocss': 'i-vscode-icons:file-type-unocss?mask icon-default @hover:text-[#4d4d4d]',
-        'icon-rust': 'i-tabler:brand-rust icon-default @hover:text-[#e43717]',
-        'icon-gdscript': 'i-vscode-icons:file-type-gdscript?mask icon-default @hover:text-[#478cbf]',
-        'icon-lua': 'i-mdi:language-lua icon-default @hover:text-[#000080]',
+        'icon-unocss': 'i-vscode-icons:file-type-unocss?mask icon-default @hover:text-[#4d4d4d]'
     }
 });
