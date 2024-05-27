@@ -39,6 +39,11 @@
             name: 'YouTube',
             url: 'https://youtube.com/@uynilo9',
             icon: 'icon-youtube'
+        },
+        {
+            name: 'YouTube Music',
+            url: 'https://music.youtube.com/channel/UCB2jaRZOvHsoa-y1nZ_b73g',
+            icon: 'icon-youtube-music'
         }
     ];
 </script>

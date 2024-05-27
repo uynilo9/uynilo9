@@ -3,6 +3,7 @@
         name: string,
         description: string,
         url: string,
+        status: 'Developing' | 'Updating' | 'Given-up' | 'Planning' | 'Idle',
         websites: Record<string, string>,
         tools: Record<string, string>
     };
@@ -11,6 +12,7 @@
             name: '@uynilo9/uynilo9',
             description: '✨ - My special repo for something amazing',
             url: 'https://github.com/uynilo9/uynilo9',
+            status: 'Updating',
             websites: {
                 'GitHub': 'icon-github',
                 'Vercel': 'icon-vercel'
@@ -21,6 +23,18 @@
                 'Vite': 'icon-vite',
                 'UnoCSS': 'icon-unocss',
                 'Bun': 'icon-bun'
+            }
+        },
+        {
+            name: '@uynilo9/bento',
+            description: '🍱 - The Bento programming language',
+            url: 'https://github.com/uynilo9/bento',
+            status: 'Developing',
+            websites: {
+                'GitHub': 'icon-github'
+            },
+            tools: {
+                'Go': 'icon-go'
             }
         }
     ];
@@ -39,7 +53,19 @@
             target="_blank"
             :href="project.url"
         >
-            <h3 class="text-4 text-default">{{ project.name }}</h3>
+            <h3 class="text-4 text-default flex gap-x-2">
+                {{ project.name }}
+                <p
+                    class="text-3 m-y-auto"
+                    :class="
+                        project.status === 'Developing' ? 'status-developing' :
+                        project.status === 'Updating' ? 'status-updating' :
+                        project.status === 'Given-up' ? 'status-givenup' :
+                        project.status === 'Idle' ? 'status-idle' :
+                        project.status === 'Planning' ? 'status-planning' : ''
+                    "
+                >{{ project.status }}</p>
+            </h3>
             <p class="text-3.5 text-default text-gray">{{ project.description }}</p>
             <div class="flex items-center gap-1">
                 <div

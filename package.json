@@ -12,6 +12,7 @@
     "vue": "^3.3.11"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols": "^1.1.80",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/tabler": "^1.1.105",
     "@iconify-json/twemoji": "^1.1.15",

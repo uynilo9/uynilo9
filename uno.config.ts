@@ -17,6 +17,12 @@ export default unocss.defineConfig({
         'text-default-reverse': 'text-black:90 selection:bg-black:90 selection:text-white:90',
         'router-default': 'px-1.5 text-default text-gray @hover:text-white:90 transition-all ease-in-out duration-300 cursor-pointer select-none',
         'router-current': 'px-1.5 text-default-reverse bg-white:90 transition-all ease-in-out duration-300 cursor-default select-none',
+        'status-default': 'px-1.25 py-0.5 text-default rounded-1',
+        'status-developing': 'status-default bg-red-500',
+        'status-updating': 'status-default bg-purple-400',
+        'status-givenup': 'status-default bg-dark-800',
+        'status-idle': 'status-default bg-yellow-500',
+        'status-planning': 'status-default bg-blue-400',
         'icon-default': 'text-5 text-gray transition-color ease-in-out duration-300',
         'icon-roc': 'i-twemoji:flag-taiwan text-4',
         'icon-check': 'i-tabler:discount-check-filled?mask text-4 text-blue',
@@ -28,10 +34,12 @@ export default unocss.defineConfig({
         'icon-twitch': 'i-tabler:brand-twitch icon-default @hover:text-[#843feb]',
         'icon-twitter': 'i-tabler:brand-twitter icon-default @hover:text-[#1b8fdd]',
         'icon-youtube': 'i-tabler:brand-youtube icon-default @hover:text-[#db0808]',
+        'icon-youtube-music': 'i-material-symbols:youtube-music icon-default @hover:text-[#db0808]',
         'icon-bun': 'i-vscode-icons:file-type-bun?mask icon-default @hover:text-[#fbf0df]',
         'icon-ts': 'i-tabler:brand-typescript icon-default @hover:text-[#3178c6]',
         'icon-vue': 'i-tabler:brand-vue icon-default @hover:text-[#41b883]',
         'icon-vite': 'i-tabler:brand-vite icon-default @hover:text-[#7590ff]',
-        'icon-unocss': 'i-vscode-icons:file-type-unocss?mask icon-default @hover:text-[#4d4d4d]'
+        'icon-unocss': 'i-vscode-icons:file-type-unocss?mask icon-default @hover:text-[#4d4d4d]',
+        'icon-go': 'i-tabler:brand-golang icon-default @hover:text-[#00acd7]'
     }
 });
