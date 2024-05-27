@@ -21,3 +21,4 @@ Reorder the skill icons in the README.md file
 Add the missing logs and one contributed project in the Project.vue file
 Remove one contributed project and three icons
 Add the YouTube Music link in the Links.vue file, the status labels of projects and one developing project in the Projects.vue file
+Disable the cursor selection of status labels

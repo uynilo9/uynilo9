@@ -17,7 +17,7 @@ export default unocss.defineConfig({
         'text-default-reverse': 'text-black:90 selection:bg-black:90 selection:text-white:90',
         'router-default': 'px-1.5 text-default text-gray @hover:text-white:90 transition-all ease-in-out duration-300 cursor-pointer select-none',
         'router-current': 'px-1.5 text-default-reverse bg-white:90 transition-all ease-in-out duration-300 cursor-default select-none',
-        'status-default': 'px-1.25 py-0.5 text-default rounded-1',
+        'status-default': 'px-1.25 py-0.5 text-default rounded-1 select-none',
         'status-developing': 'status-default bg-red-500',
         'status-updating': 'status-default bg-purple-400',
         'status-givenup': 'status-default bg-dark-800',
