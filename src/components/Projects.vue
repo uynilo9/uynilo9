@@ -3,7 +3,7 @@
         name: string,
         description: string,
         url: string,
-        status: 'Developing' | 'Updating' | 'Given-up' | 'Planning' | 'Idle',
+        status: 'Updating' | 'Developing' | 'Given-up' | 'Planning' | 'Idle',
         websites: Record<string, string>,
         tools: Record<string, string>
     };
@@ -58,8 +58,8 @@
                 <p
                     class="text-3 m-y-auto"
                     :class="
+                        project.status === 'Updating' ? 'hidden' :
                         project.status === 'Developing' ? 'status-developing' :
-                        project.status === 'Updating' ? 'status-updating' :
                         project.status === 'Given-up' ? 'status-givenup' :
                         project.status === 'Idle' ? 'status-idle' :
                         project.status === 'Planning' ? 'status-planning' : ''

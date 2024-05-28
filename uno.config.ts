@@ -19,7 +19,6 @@ export default unocss.defineConfig({
         'router-current': 'px-1.5 text-default-reverse bg-white:90 transition-all ease-in-out duration-300 cursor-default select-none',
         'status-default': 'px-1.25 py-0.5 text-default rounded-1 select-none',
         'status-developing': 'status-default bg-red-500',
-        'status-updating': 'status-default bg-purple-400',
         'status-givenup': 'status-default bg-dark-800',
         'status-idle': 'status-default bg-yellow-500',
         'status-planning': 'status-default bg-blue-400',

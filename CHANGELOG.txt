@@ -23,3 +23,4 @@ Remove one contributed project and three icons
 Add the YouTube Music link in the Links.vue file, the status labels of projects and one developing project in the Projects.vue file
 Disable the cursor selection of status labels
 Add the meta tag for Google Search Console verification
+Remove the Updating label in the Projects.vue file
