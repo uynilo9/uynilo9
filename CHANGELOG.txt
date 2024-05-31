@@ -24,3 +24,4 @@ Add the YouTube Music link in the Links.vue file, the status labels of projects 
 Disable the cursor selection of status labels
 Add the meta tag for Google Search Console verification
 Remove the Updating label in the Projects.vue file
+Add some meta tags for web info and the banner picture
