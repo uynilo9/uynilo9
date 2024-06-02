@@ -48,22 +48,27 @@
     ];
 </script>
 <template>
-    <div class="flex flex-row">
-        <a
+    <div class="flex">
+        <div
+            class="flex"
             v-for="link in links"
-            class="flex cursor-default"
-            target="_blank"
-            :href="link.url"
-            :title="link.name"
         >
-            <div
-                class="cursor-pointer"
-                :class="link.icon"
-            ></div>
+            <a
+                class="flex cursor-default"
+                target="_blank"
+                :href="link.url"
+                :title="link.name"
+            >
+                <div
+                    class="cursor-pointer"
+                    :class="link.icon"
+                ></div>
+            </a>
             <p
                 v-if="link != links[links.length - 1]"
                 class="mx-3 text-default text-gray select-none"
             >|</p>
-        </a>
+
+        </div>
     </div>
 </template>
