@@ -26,10 +26,37 @@
             }
         },
         {
+            name: '@uynilo9/logger.go',
+            description: '🌴 - A simple logger for Go',
+            url: 'https://pkg.go.dev/github.com/uynilo9/logger.go',
+            status: 'Updating',
+            websites: {
+                'Go Packages': 'icon-pkg.go.dev',
+                'GitHub': 'icon-github'
+            },
+            tools: {
+                'Go': 'icon-go'
+            }
+        },
+        {
+            name: '@uynilo9/pretzel',
+            description: '🥨 - The Pretzel package manager for Bun',
+            url: 'https://github.com/uynilo9/pretzel',
+            status: 'Developing',
+            websites: {
+                'GitHub': 'icon-github'
+            },
+            tools: {
+                'Go': 'icon-go',
+                'TypeScript': 'icon-ts',
+                'Bun': 'icon-bun'
+            }
+        },
+        {
             name: '@uynilo9/bento',
             description: '🍱 - The Bento programming language',
             url: 'https://github.com/uynilo9/bento',
-            status: 'Developing',
+            status: 'Idle',
             websites: {
                 'GitHub': 'icon-github'
             },

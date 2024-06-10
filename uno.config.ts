@@ -25,6 +25,7 @@ export default unocss.defineConfig({
         'icon-default': 'text-5 text-gray transition-color ease-in-out duration-300',
         'icon-roc': 'i-twemoji:flag-taiwan text-4',
         'icon-check': 'i-tabler:discount-check-filled?mask text-4 text-blue',
+        'icon-pkg.go.dev': 'i-vscode-icons:file-type-go-gopher?mask icon-default @hover:text-[#6ad7e5]',
         'icon-vercel': 'i-tabler:brand-vercel icon-default @hover:text-[#f5f5f5]',
         'icon-discord': 'i-tabler:brand-discord icon-default @hover:text-[#5865f2]',
         'icon-github': 'i-tabler:brand-github icon-default @hover:text-[#f5f5f5]',
