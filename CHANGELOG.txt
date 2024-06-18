@@ -27,3 +27,4 @@ Remove the Updating label in the Projects.vue file
 Add some meta tags for web info and the banner picture
 Modify the social links structure in the Links.vue file
 Add two projects and update the status in the Projects.vue file
+Setup EditorConfig and Prettier for the project

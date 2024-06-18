@@ -1,21 +1,21 @@
 <script lang="ts" setup>
-    import * as vue from 'vue';
-    import Header from '@components/Header.vue';
-    import About from '@components/About.vue';
-    import Projects from '@components/Projects.vue';
-    const view = vue.ref(0);
+	import * as vue from 'vue';
+	import Header from '@components/Header.vue';
+	import About from '@components/About.vue';
+	import Projects from '@components/Projects.vue';
+	const view = vue.ref(0);
 </script>
 <template>
-    <div
-        class="
+	<div
+		class="
             m-auto px-7.5 py-5 w-lg h-xs flex flex-col
             bg-gray:5 rounded-2.5
             shadow-lg shadow-black:10 @hover:shadow-black:25
             transition-shadow ease-in-out duration-250
         "
-    >
-        <Header @view-changed="(n) => view = n"/>
-        <About v-if="view === 0"/>
-        <Projects v-if="view === 1"/>
-    </div>
+	>
+		<Header @view-changed="(n) => view = n" />
+		<About v-if="view === 0" />
+		<Projects v-if="view === 1" />
+	</div>
 </template>

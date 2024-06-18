@@ -1,27 +1,30 @@
 {
-  "private": true,
-  "name": "@uynilo9/website",
-  "type": "module",
-  "scripts": {
-    "v:dev": "vite",
-    "v:host": "vite --host",
-    "v:build": "vue-tsc && vite build",
-    "v:preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.11"
-  },
-  "devDependencies": {
-    "@iconify-json/material-symbols": "^1.1.80",
-    "@iconify-json/mdi": "^1.1.64",
-    "@iconify-json/tabler": "^1.1.105",
-    "@iconify-json/twemoji": "^1.1.15",
-    "@iconify-json/vscode-icons": "^1.1.33",
-    "@vitejs/plugin-vue": "^4.5.2",
-    "bun-types": "latest",
-    "typescript": "^5.2.2",
-    "unocss": "^0.58.4",
-    "vite": "^5.0.8",
-    "vue-tsc": "^1.8.25"
-  }
+	"private": true,
+	"name": "@uynilo9/website",
+	"type": "module",
+	"scripts": {
+		"v:dev": "vite",
+		"v:host": "vite --host",
+		"v:build": "vue-tsc && vite build",
+		"v:preview": "vite preview",
+		"p:all": "bun prettier . --write --config=.prettierrc",
+		"p:vue": "find ./src -name \"*.vue\" | xargs bun prettier --write --config=.prettierrc"
+	},
+	"dependencies": {
+		"vue": "^3.3.11"
+	},
+	"devDependencies": {
+		"@iconify-json/material-symbols": "^1.1.80",
+		"@iconify-json/mdi": "^1.1.64",
+		"@iconify-json/tabler": "^1.1.105",
+		"@iconify-json/twemoji": "^1.1.15",
+		"@iconify-json/vscode-icons": "^1.1.33",
+		"@vitejs/plugin-vue": "^4.5.2",
+		"bun-types": "latest",
+		"prettier": "3.3.2",
+		"typescript": "^5.2.2",
+		"unocss": "^0.58.4",
+		"vite": "^5.0.8",
+		"vue-tsc": "^1.8.25"
+	}
 }
