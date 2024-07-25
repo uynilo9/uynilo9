@@ -29,3 +29,4 @@ Modify the social links structure in the Links.vue file
 Add two projects and update the status in the Projects.vue file
 Setup EditorConfig and Prettier for the project
 Fix the avatar.png, spinning.gif and vite-env.d.ts files
+Modify something and update the projects

@@ -1,18 +1,17 @@
 <script lang="ts" setup>
-	interface Project {
-	    name: string,
-	    description: string,
-	    url: string,
-	    status: 'Updating' | 'Developing' | 'Given-up' | 'Planning' | 'Idle',
-	    websites: Record<string, string>,
-	    tools: Record<string, string>
-	};
+	enum Status {
+		Updating = 'Updating',
+		Developing = 'Developing',
+		Archived = 'Archived',
+		Planning = 'Planning',
+		Idle = 'Idle',
+	}
 	const projects: Project[] = [
 	    {
 	        name: '@uynilo9/uynilo9',
 	        description: '✨ - My special repo for something amazing',
 	        url: 'https://github.com/uynilo9/uynilo9',
-	        status: 'Updating',
+	        status: Status.Updating,
 	        websites: {
 	            'GitHub': 'icon-github',
 	            'Vercel': 'icon-vercel'
@@ -29,7 +28,7 @@
 	        name: '@uynilo9/logger.go',
 	        description: '🌴 - A simple logger for Go',
 	        url: 'https://pkg.go.dev/github.com/uynilo9/logger.go',
-	        status: 'Updating',
+	        status: Status.Updating,
 	        websites: {
 	            'Go Packages': 'icon-pkg.go.dev',
 	            'GitHub': 'icon-github'
@@ -42,7 +41,7 @@
 	        name: '@uynilo9/pretzel',
 	        description: '🥨 - The Pretzel package manager for Bun',
 	        url: 'https://github.com/uynilo9/pretzel',
-	        status: 'Developing',
+	        status: Status.Archived,
 	        websites: {
 	            'GitHub': 'icon-github'
 	        },
@@ -56,7 +55,7 @@
 	        name: '@uynilo9/bento',
 	        description: '🍱 - The Bento programming language',
 	        url: 'https://github.com/uynilo9/bento',
-	        status: 'Idle',
+	        status: Status.Archived,
 	        websites: {
 	            'GitHub': 'icon-github'
 	        },
@@ -85,11 +84,11 @@
 				<p
 					class="text-3 m-y-auto"
 					:class="
-                        project.status === 'Updating' ? 'hidden' :
-                        project.status === 'Developing' ? 'status-developing' :
-                        project.status === 'Given-up' ? 'status-givenup' :
-                        project.status === 'Idle' ? 'status-idle' :
-                        project.status === 'Planning' ? 'status-planning' : ''
+                        project.status === Status.Updating ? 'hidden' :
+                        project.status === Status.Developing ? 'status-developing' :
+                        project.status === Status.Archived ? 'status-archived' :
+                        project.status === Status.Planning ? 'status-planning' :
+                        project.status === Status.Idle ? 'status-idle' : ''
                     "
 					>{{ project.status }}</p
 				>
