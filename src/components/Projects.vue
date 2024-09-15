@@ -97,19 +97,19 @@
 					>{{ project.status }}</p
 				>
 			</h3>
-			<p
-				class="text-3.5 text-default text-gray"
-				>{{ project.description }}</p
+			<p class="text-3.5 text-default text-gray">{{ project.description }}</p>
+			<div
+				class="
+					flex gap-x-1
+					*:my-auto
+				"
 			>
-			<div class="flex items-center gap-1">
 				<div
 					v-for="websiteIcon, website in project.websites"
 					:class="websiteIcon"
 					:title="website"
 				></div>
-				<p class="mx-1 text-3.5 text-default text-gray select-none"
-					>|</p
-				>
+				<p class="mx-1 text-4 text-default text-gray select-none">|</p>
 				<div
 					v-for="toolIcon, tool in project.tools"
 					:class="toolIcon"

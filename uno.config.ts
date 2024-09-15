@@ -29,6 +29,8 @@ export default unocss.defineConfig({
 		'icon-default':
 			'text-5 text-gray transition-color ease-in-out duration-300',
 		'icon-roc': 'i-twemoji:flag-taiwan text-4',
+		'icon-ubuntu': 'i-tabler:brand-ubuntu text-4 text-orange-400',
+		'icon-vscode': 'i-mdi:microsoft-visual-studio-code text-4 text-blue-500',
 		'icon-check': 'i-tabler:discount-check-filled?mask text-4 text-blue',
 		'icon-pkg.go.dev':
 			'i-vscode-icons:file-type-go-gopher?mask icon-default @hover:text-[#6ad7e5]',
