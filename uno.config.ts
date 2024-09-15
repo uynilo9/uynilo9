@@ -35,7 +35,7 @@ export default unocss.defineConfig({
 		'icon-vercel':
 			'i-tabler:brand-vercel icon-default @hover:text-[#f5f5f5]',
 		'icon-apple-music':
-			'i-simple-icons:applemusic icon-default @hover:text-[#fb5169]',
+			'i-simple-icons:applemusic icon-default text-4.5 @hover:text-[#fb5169]',
 		'icon-discord':
 			'i-tabler:brand-discord icon-default @hover:text-[#5865f2]',
 		'icon-github':

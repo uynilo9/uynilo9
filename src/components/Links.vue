@@ -55,7 +55,7 @@
 				:title="link.name"
 			>
 				<div
-					class="cursor-pointer"
+					class="my-auto cursor-pointer"
 					:class="link.icon"
 				></div>
 			</a>

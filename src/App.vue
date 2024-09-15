@@ -4,13 +4,10 @@
 <template>
 	<Main />
 </template>
-<style>
-	* {
-	    margin: 0;
-	    padding: 0;
-	    box-sizing: border-box;
-	}
-	*::-webkit-scrollbar {
-	    width: 0;
-	}
+<style lang="sass">
+	*
+		margin: 0
+		padding: 0
+		box-sizing: border-box
+		scrollbar-width: none
 </style>

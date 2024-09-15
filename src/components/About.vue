@@ -3,7 +3,7 @@
 	import Can from '@components/Can.vue';
 </script>
 <template>
-	<div class="grid gap-y-2.5">
+	<div class="h-inherit grid grid-content-between">
 		<p class="font-400 text-4 lh-normal text-default">
 			Just a normal 15 boy from ROC aka Taiwan. I enjoy programming,
 			watching animes, and playing video games. I always start developing
@@ -13,7 +13,7 @@
 			joking but I'm kinda serious).
 		</p>
 		<div
-			class="flex flex-row flex-wrap items-center justify-between justify-end"
+			class="flex flex-row flex-wrap items-center justify-between"
 		>
 			<Links />
 			<Can />
