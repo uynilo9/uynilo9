@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+	const emit = defineEmits<{
+		viewChanged: [view: number];
+	}>();
+
 	import * as vue from 'vue';
 	const view = vue.ref(0);
 </script>
@@ -7,13 +11,13 @@
 		<p
 			class="font-500 text-3.75"
 			:class="view === 0 ? 'router-current' : 'router-default'"
-			@click="view = 0, $emit('view-changed', view)"
+			@click="view = 0, emit('viewChanged', view)"
 			>About</p
 		>
 		<p
 			class="font-500 text-3.75"
 			:class="view === 1 ? 'router-current' : 'router-default'"
-			@click="view = 1, $emit('view-changed', view)"
+			@click="view = 1, emit('viewChanged', view)"
 			>Projects</p
 		>
 	</div>

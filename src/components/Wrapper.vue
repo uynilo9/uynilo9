@@ -14,7 +14,7 @@
             transition-shadow ease-in-out duration-250
         "
 	>
-		<Header @view-changed="(n) => view = n" />
+		<Header @viewChanged="(newView: number) => view = newView" />
 		<About v-if="view === 0" />
 		<Projects v-if="view === 1" />
 	</div>
