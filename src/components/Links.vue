@@ -6,6 +6,11 @@
 	};
 	const links: Link[] = [
 	    {
+	        name: 'Apple Music',
+	        url: 'https://music.apple.com/profile/uynilo9',
+	        icon: 'icon-apple-music'
+	    },
+	    {
 	        name: 'Discord',
 	        url: 'https://discordapp.com/users/979017190009368586',
 	        icon: 'icon-discord'
@@ -19,11 +24,6 @@
 	        name: 'Reddit',
 	        url: 'https://reddit.com/u/uynilo9_',
 	        icon: 'icon-reddit'
-	    },
-	    {
-	        name: 'Spotify',
-	        url: 'https://open.spotify.com/user/315prrl5b3npqcxe7wyfkux7e6dm',
-	        icon: 'icon-spotify'
 	    },
 	    {
 	        name: 'Twitch',
@@ -40,11 +40,6 @@
 	        url: 'https://youtube.com/@uynilo9',
 	        icon: 'icon-youtube'
 	    },
-	    {
-	        name: 'YouTube Music',
-	        url: 'https://music.youtube.com/channel/UCB2jaRZOvHsoa-y1nZ_b73g',
-	        icon: 'icon-youtube-music'
-	    }
 	];
 </script>
 <template>

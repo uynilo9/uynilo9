@@ -34,22 +34,20 @@ export default unocss.defineConfig({
 			'i-vscode-icons:file-type-go-gopher?mask icon-default @hover:text-[#6ad7e5]',
 		'icon-vercel':
 			'i-tabler:brand-vercel icon-default @hover:text-[#f5f5f5]',
+		'icon-apple-music':
+			'i-simple-icons:applemusic icon-default @hover:text-[#fb5169]',
 		'icon-discord':
 			'i-tabler:brand-discord icon-default @hover:text-[#5865f2]',
 		'icon-github':
 			'i-tabler:brand-github icon-default @hover:text-[#f5f5f5]',
 		'icon-reddit':
 			'i-tabler:brand-reddit icon-default @hover:text-[#ec4001]',
-		'icon-spotify':
-			'i-tabler:brand-spotify icon-default @hover:text-[#138a3d]',
 		'icon-twitch':
 			'i-tabler:brand-twitch icon-default @hover:text-[#843feb]',
 		'icon-twitter':
 			'i-tabler:brand-twitter icon-default @hover:text-[#1b8fdd]',
 		'icon-youtube':
 			'i-tabler:brand-youtube icon-default @hover:text-[#db0808]',
-		'icon-youtube-music':
-			'i-material-symbols:youtube-music icon-default @hover:text-[#db0808]',
 		'icon-bun':
 			'i-vscode-icons:file-type-bun?mask icon-default @hover:text-[#fbf0df]',
 		'icon-ts':
@@ -59,5 +57,6 @@ export default unocss.defineConfig({
 		'icon-unocss':
 			'i-vscode-icons:file-type-unocss?mask icon-default @hover:text-[#4d4d4d]',
 		'icon-go': 'i-tabler:brand-golang icon-default @hover:text-[#00acd7]',
+		'icon-wails': 'i-simple-icons:wails icon-default @hover:text-[#d02a2c]',
 	},
 });

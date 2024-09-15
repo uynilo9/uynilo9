@@ -25,6 +25,24 @@
 	        }
 	    },
 	    {
+	        name: '@uynilo9/note-pie',
+	        description: '🥧 - The Note-pie modern MD notes app',
+	        url: 'https://github.com/uynilo9/note-pie',
+	        status: Status.Developing,
+	        websites: {
+	            'GitHub': 'icon-github'
+	        },
+	        tools: {
+				'Go': 'icon-go',
+				'Wails': 'icon-wails',
+				'TypeScript': 'icon-ts',
+	            'Vue': 'icon-vue',
+	            'Vite': 'icon-vite',
+	            'UnoCSS': 'icon-unocss',
+				'Bun': 'icon-bun'
+	        }
+	    },
+	    {
 	        name: '@uynilo9/logger.go',
 	        description: '🌴 - A simple logger for Go',
 	        url: 'https://pkg.go.dev/github.com/uynilo9/logger.go',
@@ -35,20 +53,6 @@
 	        },
 	        tools: {
 	            'Go': 'icon-go'
-	        }
-	    },
-	    {
-	        name: '@uynilo9/pretzel',
-	        description: '🥨 - The Pretzel package manager for Bun',
-	        url: 'https://github.com/uynilo9/pretzel',
-	        status: Status.Archived,
-	        websites: {
-	            'GitHub': 'icon-github'
-	        },
-	        tools: {
-	            'Go': 'icon-go',
-	            'TypeScript': 'icon-ts',
-	            'Bun': 'icon-bun'
 	        }
 	    },
 	    {
