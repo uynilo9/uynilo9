@@ -9,10 +9,6 @@
 			icon: 'icon-roc'
 		},
 		{
-			name: 'WSL',
-			icon: 'icon-ubuntu'
-		},
-		{
 			name: 'VSCode',
 			icon: 'icon-vscode'
 		},
